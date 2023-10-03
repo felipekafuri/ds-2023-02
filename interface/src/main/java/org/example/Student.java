@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.List;
 
-public class Student {
+public class Student implements Comparable<Student> {
     String firstName;
     String lastName;
     int age;
@@ -18,4 +18,11 @@ public class Student {
     double getAverageGrade() {
         return grades.stream().mapToInt(Integer::intValue).average().orElse(0);
     }
+
+    @Override
+    public int compareTo(Student o) {
+        return this.firstName.compareTo(o.firstName);
+    }
+
+
 }

@@ -1,7 +1,7 @@
 package org.example;
 
 
-import java.util.Comparator;
+import java.util.Collections;
 import java.util.List;
 
 public class StudentSorter {
@@ -15,25 +15,21 @@ public class StudentSorter {
     }
 
     public static void sortAndPrintStudents(List<Student> students) {
-        // Ordenar por nome
-        students.sort(Comparator.comparing(s -> s.firstName));
+        // Ordenar por nome (usando Comparable)
+        Collections.sort(students);
         printStudents("Nome", students);
 
-        // Ordenar por sobrenome
-        students.sort(Comparator.comparing(s -> s.lastName));
+        // Ordenar por sobrenome (usando Comparator)
+        Collections.sort(students, new StudentLastNameComparator());
         printStudents("Sobrenome", students);
 
         // Ordenar por idade
-        students.sort(Comparator.comparingInt(s -> s.age));
+        Collections.sort(students, new StudentAgeComparator());
         printStudents("Idade", students);
 
         // Ordenar por média de notas
-        students.sort(Comparator.comparingDouble(s -> s.getAverageGrade()));
+        Collections.sort(students, new StudentAverageGradeComparator());
         printStudents("Média de Notas", students);
-
-        // Ordenar por nome de forma decrescente
-        students.sort(Comparator.comparing((Student s) -> s.firstName).reversed());
-        printStudents("Nome (decrescente)", students);
     }
 }
 
