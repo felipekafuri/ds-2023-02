@@ -1,21 +1,5 @@
 package org.example;
-/**
- * ClassSearcher - Um utilitário de linha de comando para pesquisar classes em diretórios e arquivos .jar/.war.
- *
- * Como usar:
- * 1. Compile esta classe.
- * 2. Execute o programa usando o comando:
- *    java ClassSearcher <nome da classe> <diretório> [-p]
- *
- * Exemplos:
- * - Para pesquisar a classe "MyClass" no diretório "/path/to/dir" sem usar parallelStream():
- *   java ClassSearcher MyClass /path/to/dir
- *
- * - Para pesquisar a classe "MyClass" no diretório "/path/to/dir" usando parallelStream():
- *   java ClassSearcher MyClass /path/to/dir -p
- *
- * Nota: Certifique-se de que o diretório fornecido e qualquer subdiretório não contenham espaços no nome.
- */
+
 
 import java.io.File;
 import java.util.ArrayList;
