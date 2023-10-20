@@ -1,6 +1,8 @@
 package org.example;
 
 
+import org.objectweb.asm.ClassReader;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -88,12 +90,26 @@ public class ClassSearcher {
     private boolean containsClass(File file) {
         if (file.getName().endsWith(".class")) {
             classFilesChecked++;
-            return file.getName().equals(className + ".class");
+            return classFileContainsClass(file, className);
         } else if (file.getName().endsWith(".jar") || file.getName().endsWith(".war")) {
             return jarContainsClass(file);
         }
         return false;
     }
+
+    private boolean classFileContainsClass(File classFile, String fullClassName) {
+        try (FileInputStream fis = new FileInputStream(classFile)) {
+            ClassReader reader = new ClassReader(fis);
+            ClassChecker checker = new ClassChecker(fullClassName);
+            reader.accept(checker, 0);
+            return checker.classFound();
+        } catch (IOException e) {
+            System.err.println("Erro ao ler o arquivo .class: " + classFile.getAbsolutePath());
+        }
+        return false;
+    }
+
+
     private boolean jarContainsClass(File jarFile) {
         try (JarInputStream jarStream = new JarInputStream(new FileInputStream(jarFile))) {
             JarEntry entry;
