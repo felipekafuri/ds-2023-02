@@ -13,12 +13,7 @@ public abstract class Observable {
     }
 
     public void addObserver(ObserverInterface observer) {
-        Observer annotation = observer.getClass().getAnnotation(Observer.class);
-        if (annotation != null && annotation.observado().equals(this.identifier)) {
-            observers.add(observer);
-        } else {
-            throw new IllegalArgumentException("Observer não compatível com este Observable.");
-        }
+        observers.add(observer);
     }
 
     protected void notifyObservers() {
@@ -27,3 +22,4 @@ public abstract class Observable {
         }
     }
 }
+
