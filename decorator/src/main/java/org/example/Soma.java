@@ -1,16 +1,15 @@
 package org.example;
 
-public class Soma implements Expressao {
-    private Expressao expr1;
-    private Expressao expr2;
+public class Soma extends OperacaoDecorator {
+    private Expressao outraExpressao;
 
-    public Soma(Expressao expr1, Expressao expr2) {
-        this.expr1 = expr1;
-        this.expr2 = expr2;
+    public Soma(Expressao expressao, Expressao outraExpressao) {
+        super(expressao);
+        this.outraExpressao = outraExpressao;
     }
 
     @Override
     public float valor() {
-        return expr1.valor() + expr2.valor();
+        return super.valor() + outraExpressao.valor();
     }
 }
