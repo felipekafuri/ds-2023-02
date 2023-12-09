@@ -1,5 +1,7 @@
 # Problema, Necessidade ou Demanda:
 
+> docker run --name mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 -d mysql:latest
+
 Com a crescente digitalização de recursos educacionais e de entretenimento, as bibliotecas precisam de sistemas eficientes para gerenciar conteúdo digital. Isso inclui o gerenciamento de e-books, jornais, revistas, vídeos educativos e outros recursos multimídia. Além disso, esses sistemas devem permitir o acesso fácil e organizado para usuários e administradores.
 
 # Proposta de Solução:
