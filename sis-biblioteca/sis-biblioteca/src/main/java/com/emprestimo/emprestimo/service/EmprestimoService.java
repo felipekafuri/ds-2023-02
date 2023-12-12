@@ -1,7 +1,7 @@
 package com.emprestimo.emprestimo.service;
 
 import com.emprestimo.emprestimo.ItemDigital;
-import com.emprestimo.emprestimo.repository.ItemDigitalRepository;
+import com.emprestimo.dominio.repository.ItemDigitalRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
