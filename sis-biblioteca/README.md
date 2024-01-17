@@ -33,3 +33,6 @@ O software proposto é um sistema de gerenciamento para bibliotecas digitais. El
 - Documentação Técnica: Fornecer documentação detalhada para desenvolvedores e usuários finais.
 
 
+### Links
+- [Doc de arquitetura](https://docs.google.com/document/d/1lbej-p9UwFjNndhZcRkEye2EfPrtlHe8XWrRrlGMwLo/edit)
+- [Diagrama](https://app.diagrams.net/#G1Kbltmq4Ouoxw7Qi3bg0odwno_gs07dez)
