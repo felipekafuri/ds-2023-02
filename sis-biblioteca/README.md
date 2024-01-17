@@ -34,5 +34,6 @@ O software proposto é um sistema de gerenciamento para bibliotecas digitais. El
 
 
 ### Links
-- [Doc de arquitetura]([https://docs.google.com/document/d/1lbej-p9UwFjNndhZcRkEye2EfPrtlHe8XWrRrlGMwLo/edit](https://docs.google.com/document/d/1lbej-p9UwFjNndhZcRkEye2EfPrtlHe8XWrRrlGMwLo/edit?usp=sharing)https://docs.google.com/document/d/1lbej-p9UwFjNndhZcRkEye2EfPrtlHe8XWrRrlGMwLo/edit?usp=sharing)
-- [Diagrama]([https://app.diagrams.net/#G1Kbltmq4Ouoxw7Qi3bg0odwno_gs07dez](https://app.diagrams.net/?src=about#G1Kbltmq4Ouoxw7Qi3bg0odwno_gs07dez)https://app.diagrams.net/?src=about#G1Kbltmq4Ouoxw7Qi3bg0odwno_gs07dez)
+- [Doc de arquitetura](https://docs.google.com/document/d/1lbej-p9UwFjNndhZcRkEye2EfPrtlHe8XWrRrlGMwLo/edit?usp=sharing)
+  
+- [Diagrama](https://app.diagrams.net/?src=about#G1Kbltmq4Ouoxw7Qi3bg0odwno_gs07dez)
