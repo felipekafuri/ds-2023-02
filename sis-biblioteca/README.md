@@ -24,4 +24,5 @@ O software proposto é um sistema de gerenciamento para bibliotecas. Ele oferece
 
 
 ### Links  
-- [Diagrama](https://app.diagrams.net/?src=about#G1Kbltmq4Ouoxw7Qi3bg0odwno_gs07dez)
+- [Diagrama - V1](https://app.diagrams.net/?src=about#G1Kbltmq4Ouoxw7Qi3bg0odwno_gs07dez)
+- [Diagrama - V2 - Atual](https://app.diagrams.net/#G1c9qyFWIo4N5FePJfJnlruF-SVGXN-cUV)
