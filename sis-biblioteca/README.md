@@ -22,6 +22,9 @@ O software proposto é um sistema de gerenciamento para bibliotecas. Ele oferece
 - Manutenibilidade: Facilidade de manutenção e atualização do sistema.
 - Documentação Técnica: Fornecer documentação detalhada para desenvolvedores e usuários finais.
 
+  # Diagrama C4 - V2
+  ![diagramas c4](https://github.com/felipekafuri/ds-2023-02/blob/main/sis-biblioteca/images/SysBibliotecaC4.drawio.png)
+
 
 ### Links  
 - [Diagrama - V1](https://app.diagrams.net/?src=about#G1Kbltmq4Ouoxw7Qi3bg0odwno_gs07dez)
