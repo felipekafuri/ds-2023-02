@@ -24,7 +24,7 @@ O software proposto é um sistema de gerenciamento para bibliotecas. Ele oferece
 
 
 # Diagrama C4
-![diagrama C4](https://github.com/felipekafuri/ds-2023-02/blob/main/sis-biblioteca/docs/c4-diagrams/SysBibliotecaC4_v2.png)
+![diagrama C4](https://github.com/felipekafuri/ds-2023-02/blob/main/sis-biblioteca/docs/c4-diagrams/SysBibliotecaC4_V2.png)
 
 # Domínios do Sistema (DDD)
 ![diagrama ddd](https://github.com/felipekafuri/ds-2023-02/blob/main/sis-biblioteca/docs/ddd-diagrams/dominios.png)
