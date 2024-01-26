@@ -21,3 +21,13 @@ O software proposto é um sistema de gerenciamento para bibliotecas. Ele oferece
 - Usabilidade: Interface intuitiva e fácil de usar para diferentes tipos de usuários.
 - Manutenibilidade: Facilidade de manutenção e atualização do sistema.
 - Documentação Técnica: Fornecer documentação detalhada para desenvolvedores e usuários finais.
+
+
+# Diagrama C4
+![diagrama C4](https://github.com/felipekafuri/ds-2023-02/blob/main/sis-biblioteca/docs/c4-diagrams/SysBibliotecaC4_v2.png)
+
+# Domínios do Sistema (DDD)
+![diagrama ddd](https://github.com/felipekafuri/ds-2023-02/blob/main/sis-biblioteca/docs/ddd-diagrams/dominios.png)
+
+# Bounded Contexts
+![diagrama Bounded Contexts](https://github.com/felipekafuri/ds-2023-02/blob/main/sis-biblioteca/docs/ddd-diagrams/bounded_contexts.png)
